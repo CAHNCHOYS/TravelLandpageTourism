@@ -1,0 +1,119 @@
+._ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+._ibg img {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.footer {
+  padding: 80px 0px 80px 0px;
+}
+
+.footer__top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 10px;
+  margin: 0px 0px 40px 0px;
+}
+
+.footer__top-menu > li:not(:last-child) {
+  margin: 0px 40px 0px 0px;
+}
+
+.footer__link {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #2b323a;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer__rights {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #c6c6c6;
+  margin: 0px 0px 30px 0px;
+}
+
+.footer__rights span {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #2b323a;
+}
+
+.footer__social-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__social-menu > li:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
+
+.footer__social-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: #3984f3;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer__social-link::before {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    padding: 40px 0px 40px 0px;
+  }
+}
+
+@media (any-hover: hover) {
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+
+  .footer__social-link:hover {
+    background-color: #1070ff;
+  }
+}
